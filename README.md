@@ -1,1 +1,1 @@
-# weather-bashboard
+# weather-dashboard
