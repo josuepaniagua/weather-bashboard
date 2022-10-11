@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+  </head>
+  <body>
+    <section class="webContainer">
+      <div class="header">
+        <h1>Weather Dashboard</h1>
+      </div>
+      <div class="topContainer">
+        <div class="searchBar">
+          <form>
+            <input type="text" id="cityName" placeholder="City Name..." />
+          </form>
+        </div>
+        <div class="comfirmBtn">
+          <button id="comfirm_Btn">Confirm</button>
+        </div>
+      </div>
+      <div class="todayWeatherContainer">
+        <div class="inputContainer">
+          <div id="information">
+            <p id="Input"></p>
+            <p id="Temperature"></p>
+            <p id="Wind"></p>
+            <p id="Humidity"></p>
+          </div>
+        </div>
+        <div class="WeekWeatherContainer">
+          <div id="WeekWeatherInfo"></div>
+        </div>
+      </div>
+    </section>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
