@@ -1,0 +1,87 @@
+* {
+  overflow: hidden;
+}
+
+.webContainer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  border: solid 3px black;
+  border-left: 0px;
+  border-right: 0px;
+  text-align: center;
+  background: white;
+  color: black;
+}
+
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10%;
+}
+
+.searchBar {
+  width: 180px;
+  height: 45px;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.comfirmBtn {
+  margin-top: 2%;
+  margin-left: 0%;
+}
+
+.todayWeatherContainer {
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  width: 100%;
+  margin-top: 5%;
+  background-color: rgb(0, 153, 255);
+  color: black;
+}
+
+.inputContainer {
+  border: solid 5px black;
+  width: 40%;
+  margin: 30px;
+  background-color: white;
+  font-size: 240%;
+  text-align: center;
+}
+
+#comfirm_Btn {
+  width: 90px;
+  height: 25px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.WeekWeatherContainer {
+  border: solid 5px black;
+  width: 90%;
+  margin: 30px;
+  background-color: white;
+  font-size: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#WeekWeatherInfo {
+  width: 100%;
+  margin: 30px;
+  font-size: 20px;
+}
+
+#information p {
+  margin: 10px 0px 10px 0px;
+  font-size: 30px;
+}
